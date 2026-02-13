@@ -43,7 +43,7 @@ CREATE TABLE Enrollment (
     FOREIGN KEY (Course_ID) REFERENCES Course(Course_ID)
 );
 
---Values of Department 
+
 INSERT INTO Department VALUES (101, 'Civil Engineering', 'Block A');
 INSERT INTO Department VALUES (102, 'Mechanical Engineering', 'Block B');
 INSERT INTO Department VALUES (105, 'Computer Science and Engineering', 'Block C');
@@ -53,9 +53,6 @@ INSERT INTO Department VALUES (119, 'Civil Engineering with Computer Application
 INSERT INTO Department VALUES (157, 'Computer Science and Engineering (AIML)', 'Block G');
 
 
---Vlaues of Student
-
---Civil
 INSERT INTO Student VALUES (23101128001, 'Sachin Das', DATE '2004-05-12', 'M', '8347265910', 101);
 INSERT INTO Student VALUES (23101128002, 'Aarav Dhanraj', DATE '2004-08-20', 'M', '9124587036', 101);
 INSERT INTO Student VALUES (23101128003, 'Kunal Pandit', DATE '2003-11-15', 'M', '7894512638', 101);
@@ -77,7 +74,7 @@ INSERT INTO Student VALUES (23101128046, 'Muskan Kumari', DATE '2004-06-30', 'F'
 INSERT INTO Student VALUES (23101128050, 'Nikita Suman', DATE '2003-12-09', 'F', '9123456709', 101);
 INSERT INTO Student VALUES (23101128051, 'Viniti Kumari', DATE '2004-08-21', 'F', '9123456710', 101);
 
---Mechanical
+
 INSERT INTO Student VALUES (23102128001, 'Aman Kumar Singh', DATE '2004-02-14', 'M', '9123456781', 102);
 INSERT INTO Student VALUES (23102128002, 'Pravi Ranjan', DATE '2003-11-08', 'M', '9234567812', 102);
 INSERT INTO Student VALUES (23102128003, 'Sanoj Kumar', DATE '2004-06-19', 'M', '9345678123', 102);
@@ -90,7 +87,7 @@ INSERT INTO Student VALUES (23102128013, 'Manish Kumar', DATE '2004-05-30', 'M',
 INSERT INTO Student VALUES (23102128014, 'Sanni Kumar', DATE '2003-10-11', 'M', '9123987654', 102);
 
 
---CSE
+
 INSERT INTO Student VALUES (23105128001, 'Shrishty Priya', '2004-03-12', 'F', '9123456701', 105);
 INSERT INTO Student VALUES (23105128008, 'Asha Kumari', '2004-07-25', 'F', '9123456702', 105);
 INSERT INTO Student VALUES (23105128011, 'Ananya Kumari', '2004-01-18', 'F', '9123456703', 105);
@@ -103,7 +100,7 @@ INSERT INTO Student VALUES (23105128034, 'Neha Kumari', '2004-06-16', 'F', '9123
 INSERT INTO Student VALUES (23105128035, 'Shweta Kumari', '2003-10-05', 'F', '9123456710', 105);
 
 
---EEE
+
 INSERT INTO Student VALUES (23110128001, 'Himanshu Bhaskar', DATE '2003-09-18', 'M', '9128475601', 110);
 INSERT INTO Student VALUES (23110128002, 'Raj Ranjan', DATE '2003-12-11', 'M', '9236584712', 110);
 INSERT INTO Student VALUES (23110128003, 'Priti Kumari', DATE '2004-04-06', 'F', '9347695823', 110);
@@ -116,7 +113,7 @@ INSERT INTO Student VALUES (23110128010, 'Nitu Kumari', DATE '2004-02-22', 'F', 
 INSERT INTO Student VALUES (23110128011, 'Kalpana Chawla', DATE '2003-11-30', 'F', '9124362590', 110);
 
 
---3DAG
+
 INSERT INTO Student VALUES (23118128001, 'Yousuf', DATE '2004-01-12', 'M', '9123400011', 118);
 INSERT INTO Student VALUES (23118128002, 'Aman Kumar', DATE '2003-11-25', 'M', '9123400022', 118);
 INSERT INTO Student VALUES (23118128003, 'Utsav Kumar', DATE '2004-03-08', 'M', '9123400033', 118);
@@ -128,7 +125,7 @@ INSERT INTO Student VALUES (23118128008, 'Mithlesh Dixit', DATE '2003-08-30', 'M
 INSERT INTO Student VALUES (23118128009, 'Muftahul', DATE '2004-04-10', 'M', '9123400099', 118);
 
 
---CECA
+
 INSERT INTO Student VALUES (23119128001, 'Gautam Kumar', DATE '2003-09-15', 'M', '9125600011', 119);
 INSERT INTO Student VALUES (23119128004, 'Gaurav Kumar', DATE '2004-01-22', 'M', '9125600022', 119);
 INSERT INTO Student VALUES (23119128005, 'Suprem Kumar', DATE '2003-12-03', 'M', '9125600033', 119);
@@ -141,7 +138,7 @@ INSERT INTO Student VALUES (23119128012, 'Ram Krishan Tiwari', DATE '2003-11-19'
 INSERT INTO Student VALUES (23119128013, 'Rajeev Kumar', DATE '2004-04-09', 'M', '9125600100', 119);
 
 
---CSE AiMl
+
 INSERT INTO Student VALUES (23157128001, 'Simran Kumari', DATE '2004-03-12', 'F', '9126700011', 157);
 INSERT INTO Student VALUES (23157128002, 'Harshit Kumar', DATE '2003-11-05', 'M', '9126700022', 157);
 INSERT INTO Student VALUES (23157128003, 'Suraj Kumar', DATE '2004-01-18', 'M', '9126700033', 157);
@@ -157,7 +154,7 @@ INSERT INTO Student VALUES (23157128015, 'Aditya Ashish Kumar', DATE '2004-01-30
 INSERT INTO Student VALUES (23157128016, 'Anubhav Kumar', DATE '2003-11-19', 'M', '9126700133', 157);
 
 
---Values of Faculty
+
 INSERT INTO Faculty VALUES (501, 'Kunal Kumar', 'Associate Professor', 'kunal1989kumar@gmail.com', 101);
 INSERT INTO Faculty VALUES (502, 'Akhilesh Kumar', 'Associate Professor', 'akhileshkumar3804@gmail.com', 101);
 INSERT INTO Faculty VALUES (503, 'Raushan Anand', 'Associate Professor', 'raushanbpmc@gmail.com', 101);
@@ -192,8 +189,7 @@ INSERT INTO Faculty VALUES (525, 'N. Kumar', 'Associate Professor', 'n.kumar@gma
 INSERT INTO Faculty VALUES (523, 'Praveen Kumar', 'Assistant Professor', 'praveenkumaryadav782@gmail.com', 157);
 
 
---Values of Course
---CE
+
 INSERT INTO Course VALUES (101503, 'Geotechnical Engineering I', 4, 101, 506);
 INSERT INTO Course VALUES (101507, 'Transportation Engineering', 4, 101, 507);
 INSERT INTO Course VALUES (101505, 'Hydraulic Engineering', 4, 101, 509);
@@ -201,13 +197,13 @@ INSERT INTO Course VALUES (101502, 'Environmental Engineering I', 4, 101, 509);
 INSERT INTO Course VALUES (101506, 'Mechanics of Materials', 4, 101, 508);
 INSERT INTO Course VALUES (101504, 'Hydrology and Water Resources', 4, 101, 508);
 
---ME
+
 INSERT INTO Course VALUES (102501, 'Fluid Machinery', 4, 102, 501);
 INSERT INTO Course VALUES (102502, 'Heat Transfer', 4, 102, 505);
 INSERT INTO Course VALUES (102503, 'Manufacturing Processes', 4, 102, 502);
 INSERT INTO Course VALUES (102504, 'Kinematics of Machinery', 4, 102, 503);
 
---CSE
+
 INSERT INTO Course VALUES (105501, 'Artificial Intelligence', 4, 105, 518);
 INSERT INTO Course VALUES (105502, 'Database Management Systems', 4, 105, 519);
 INSERT INTO Course VALUES (105503, 'Formal Language and Automata', 4, 105, 523);
@@ -215,109 +211,48 @@ INSERT INTO Course VALUES (105504, 'Software Engineering', 4, 105, 522);
 INSERT INTO Course VALUES (100508, 'Professional Skill Development', 2, 105, 520);
 
 
---EEE
+
 INSERT INTO Course VALUES (100506, 'Power Electronics', 4, 110, 516);
 INSERT INTO Course VALUES (100507, 'Power Systems I', 4, 110, 515);
 INSERT INTO Course VALUES (100502, 'Control Systems', 4, 110, 514);
 INSERT INTO Course VALUES (110501, 'Analog and Digital', 4, 110, 513);
 
 
---3D
+
 INSERT INTO Course VALUES (118501, '3D Modelling', 4, 118, 526);
 INSERT INTO Course VALUES (118503, '3D Texturing', 4, 118, 526);
 INSERT INTO Course VALUES (118502, '3D Character Design', 4, 118, 526);
 INSERT INTO Course VALUES (100512, 'Design Thinking', 3, 118, 527);
 
---CECA
+
 INSERT INTO Course VALUES (119501, 'Machine Learning', 4, 119, 525);
 INSERT INTO Course VALUES (119504, 'Geotechnical Engineering I', 4, 119, 506);
 INSERT INTO Course VALUES (119507, 'Transportation Engineering', 4, 119, 507);
 INSERT INTO Course VALUES (119502, 'Hydraulic Engineering', 4, 119, 509);
 INSERT INTO Course VALUES (119506, 'Environmental Engineering I', 4, 119, 509);
-INSERT INTO Course VALUES (119501, 'Machine Learning', 4, 119, 525);
 INSERT INTO Course VALUES (119505, 'Hydrology and Water Resources', 4, 119, 508);
 
---CSE AiMl
+
 INSERT INTO Course VALUES (621, 'Machine Learning', 4, 157, 523);
 INSERT INTO Course VALUES (622, 'Computer Networks', 4, 157, 523);
 INSERT INTO Course VALUES (623, 'Artificial Intelligence', 4, 157, 523);
 
---Values of Enrollment
---CSE
--- Student 23105128001
+
 INSERT INTO Enrollment VALUES (1201, '5th', 'A', 23105128001, 105501);
 INSERT INTO Enrollment VALUES (1202, '5th', 'A-', 23105128001, 105502);
 INSERT INTO Enrollment VALUES (1203, '5th', 'B+', 23105128001, 105503);
 INSERT INTO Enrollment VALUES (1204, '5th', 'A', 23105128001, 105504);
 INSERT INTO Enrollment VALUES (1205, '5th', 'B', 23105128001, 100508);
 
--- Student 23105128002
-INSERT INTO Enrollment VALUES (1206, '5th', 'B+', 23105128002, 105501);
-INSERT INTO Enrollment VALUES (1207, '5th', 'A', 23105128002, 105502);
-INSERT INTO Enrollment VALUES (1208, '5th', 'A-', 23105128002, 105503);
-INSERT INTO Enrollment VALUES (1209, '5th', 'B', 23105128002, 105504);
-INSERT INTO Enrollment VALUES (1210, '5th', 'A', 23105128002, 100508);
-
--- Student 23105128003
-INSERT INTO Enrollment VALUES (1211, '5th', 'A', 23105128003, 105501);
-INSERT INTO Enrollment VALUES (1212, '5th', 'B+', 23105128003, 105502);
-INSERT INTO Enrollment VALUES (1213, '5th', 'B', 23105128003, 105503);
-INSERT INTO Enrollment VALUES (1214, '5th', 'A-', 23105128003, 105504);
-INSERT INTO Enrollment VALUES (1215, '5th', 'A', 23105128003, 100508);
-
--- Student 23105128004
-INSERT INTO Enrollment VALUES (1216, '5th', 'A-', 23105128004, 105501);
-INSERT INTO Enrollment VALUES (1217, '5th', 'A', 23105128004, 105502);
-INSERT INTO Enrollment VALUES (1218, '5th', 'B+', 23105128004, 105503);
-INSERT INTO Enrollment VALUES (1219, '5th', 'B', 23105128004, 105504);
-INSERT INTO Enrollment VALUES (1220, '5th', 'A', 23105128004, 100508);
-
--- Student 23105128005
-INSERT INTO Enrollment VALUES (1221, '5th', 'B+', 23105128005, 105501);
-INSERT INTO Enrollment VALUES (1222, '5th', 'A-', 23105128005, 105502);
-INSERT INTO Enrollment VALUES (1223, '5th', 'A', 23105128005, 105503);
-INSERT INTO Enrollment VALUES (1224, '5th', 'B', 23105128005, 105504);
-INSERT INTO Enrollment VALUES (1225, '5th', 'A', 23105128005, 100508);
-
--- Student 23105128006
-INSERT INTO Enrollment VALUES (1226, '5th', 'A', 23105128006, 105501);
-INSERT INTO Enrollment VALUES (1227, '5th', 'B+', 23105128006, 105502);
-INSERT INTO Enrollment VALUES (1228, '5th', 'A-', 23105128006, 105503);
-INSERT INTO Enrollment VALUES (1229, '5th', 'B', 23105128006, 105504);
-INSERT INTO Enrollment VALUES (1230, '5th', 'A', 23105128006, 100508);
 
 
--- Student 23105128007
-INSERT INTO Enrollment VALUES (1231, '5th', 'A-', 23105128007, 105501);
-INSERT INTO Enrollment VALUES (1232, '5th', 'A', 23105128007, 105502);
-INSERT INTO Enrollment VALUES (1233, '5th', 'B+', 23105128007, 105503);
-INSERT INTO Enrollment VALUES (1234, '5th', 'B', 23105128007, 105504);
-INSERT INTO Enrollment VALUES (1235, '5th', 'A', 23105128007, 100508);
-
-
-
-
-
--- Student 23105128008
 INSERT INTO Enrollment VALUES (1236, '5th', 'B', 23105128008, 105501);
 INSERT INTO Enrollment VALUES (1237, '5th', 'A-', 23105128008, 105502);
 INSERT INTO Enrollment VALUES (1238, '5th', 'A', 23105128008, 105503);
 INSERT INTO Enrollment VALUES (1239, '5th', 'B+', 23105128008, 105504);
 INSERT INTO Enrollment VALUES (1240, '5th', 'A', 23105128008, 100508);
 
--- Student 23105128009
-INSERT INTO Enrollment VALUES (1241, '5th', 'A', 23105128009, 105501);
-INSERT INTO Enrollment VALUES (1242, '5th', 'B+', 23105128009, 105502);
-INSERT INTO Enrollment VALUES (1243, '5th', 'A-', 23105128009, 105503);
-INSERT INTO Enrollment VALUES (1244, '5th', 'B', 23105128009, 105504);
-INSERT INTO Enrollment VALUES (1245, '5th', 'A', 23105128009, 100508);
 
--- Student 23105128010
-INSERT INTO Enrollment VALUES (1246, '5th', 'A-', 23105128010, 105501);
-INSERT INTO Enrollment VALUES (1247, '5th', 'A', 23105128010, 105502);
-INSERT INTO Enrollment VALUES (1248, '5th', 'B+', 23105128010, 105503);
-INSERT INTO Enrollment VALUES (1249, '5th', 'B', 23105128010, 105504);
-INSERT INTO Enrollment VALUES (1250, '5th', 'A', 23105128010, 100508);
 
 
 SELECT * FROM Department;
