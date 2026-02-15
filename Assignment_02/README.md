@@ -50,6 +50,6 @@ The assignment is based on designing a **College Database** involving department
 ---
 
 ## 🧑‍🎓 Author
-**Himanshu Kumar**  
+**Prem Kishor**  
 B.Tech – Computer Science Engineering  
 Database Management Systems Lab
