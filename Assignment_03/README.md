@@ -119,13 +119,7 @@ Through this assignment, I strengthened my understanding of:
 
 ---
 
-## 📎 Assignment Reference
 
-- `questions_03.pdf` → Official assignment problem statement  
-- `assignment03soln.sql` → Complete SQL solution  
-- CSV files → Structured dataset  
-
----
 
 ## 📊 Requirements Followed
 
