@@ -1,19 +1,36 @@
 # DB Lab 1 – SQL Assignment
 
 ## 📘 About
-This lab assignment introduces basic SQL concepts, covering DDL and DML commands such as creating databases and tables, inserting records, updating existing data, and deleting records.
+This lab assignment introduces basic SQL concepts using **MySQL**, covering both DDL and DML commands such as:
+
+- Creating databases and tables  
+- Inserting records  
+- Updating existing data  
+- Deleting records  
+- Altering table structure  
+
+All queries were written and executed using **MySQL Workbench**.
+
+---
 
 ## 📂 File Structure
-- Question.pdf : List of lab questions provided by the instructor
-- Assignment_01_Solution.sql : SQL commands written to solve all the questions
-- README.md : Documentation explaining the assignment details
+- `Question.pdf` : List of lab questions provided by the instructor  
+- `Assignment_01_Solution.sql` : MySQL commands written to solve all the questions  
+- `README.md` : Documentation explaining the assignment details  
+
+---
 
 ## ▶ How to Execute
-1. Open Oracle SQL Developer
-2. Set up a new database connection
-3. Open the file lab1_solution.sql
-4. Run the SQL statements one by one
+
+1. Open **MySQL Workbench**
+2. Connect to your MySQL server
+3. Open the file `Assignment_01_Solution.sql`
+4. Click ⚡ Execute  
+   OR press `Ctrl + Shift + Enter`
+
+---
 
 ## 📝 Assumptions
-- Oracle SQL syntax has been used
-- The database supports column renaming operations
+- MySQL syntax has been used
+- The MySQL server supports ALTER operations (including column renaming if applicable)
+- All commands were tested in MySQL Workbench
