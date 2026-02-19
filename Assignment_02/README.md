@@ -21,6 +21,8 @@ The assignment is based on designing a **College Database** involving department
 ```sql
    CREATE DATABASE college_db;
    USE college_db;
+'''
+---
 Open the file Assignment_02_Solution.sql
 
 Execute the SQL statements one by one or run the complete script
