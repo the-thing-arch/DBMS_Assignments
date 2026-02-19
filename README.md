@@ -7,6 +7,27 @@ It includes assignment questions along with their corresponding **MySQL scripts*
 Each assignment is organized in a separate folder to ensure better structure, clarity, and ease of access.
 
 ---
+## 📂 Repository Structure
+
+```
+DBMS_Assignments/
+│
+├── Assignment_01/
+├── Assignment_02/
+├── Assignment_03/
+│
+└── README.md
+```
+
+Each assignment folder contains:
+
+- 📄 Assignment question (PDF)
+- 🧠 SQL solution script
+- 📊 Supporting dataset (if required)
+- 📝 Documentation (README)
+
+---
+
 
 ## 📌 Repository Features
 
@@ -40,5 +61,13 @@ Each assignment is organized in a separate folder to ensure better structure, cl
 - Query writing and execution  
 
 ---
+---
 
+## 👨‍💻 Author
+
+**Prem Kishor**  
+B.Tech – Computer Science Engineering  
+Database Management Systems Laboratory  
+
+---
 This repository serves as a structured academic record of practical DBMS implementation using MySQL.
