@@ -18,10 +18,11 @@ The assignment is based on designing a **College Database** involving department
 1. Open **MySQL Workbench**  
 2. Create or select an existing MySQL connection  
 3. Create a new schema (database) if required:
+---
 ```sql
    CREATE DATABASE college_db;
    USE college_db;
-
+```
 ---
 Open the file Assignment_02_Solution.sql
 
@@ -37,7 +38,6 @@ Execute the SQL statements one by one or run the complete script
 - Enrollment (Student–Course relationship)
 
 ---
-
 ## 📝 Assumptions
 - MySQL syntax is used
 -Primary keys and foreign keys are explicitly defined
