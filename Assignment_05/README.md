@@ -106,3 +106,8 @@ After completing this lab, you will be able to:
 - Understand relational database design and data retrieval concepts  
 
 ---
+
+**Submitted by:**  
+Prem Kishor
+B.Tech (CSE)  
+DBMS Lab – Assignment 05
