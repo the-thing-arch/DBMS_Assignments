@@ -253,6 +253,39 @@ INSERT INTO Enrollment VALUES (1239, '5th', 'B+', 23105128008, 105504);
 INSERT INTO Enrollment VALUES (1240, '5th', 'A', 23105128008, 100508);
 
 
+-- Enrollment data for Chetan Kumar (Civil Engineering - 101)
+
+INSERT INTO Enrollment VALUES (1301, '5th', 'A', 23101128005, 101503);
+INSERT INTO Enrollment VALUES (1302, '5th', 'B+', 23101128005, 101507);
+INSERT INTO Enrollment VALUES (1303, '5th', 'A-', 23101128005, 101505);
+INSERT INTO Enrollment VALUES (1304, '5th', 'B', 23101128005, 101502);
+INSERT INTO Enrollment VALUES (1305, '5th', 'A', 23101128005, 101506);
+
+
+-- Enrollment data for Sunny Kumar (Civil Engineering - 101)
+
+INSERT INTO Enrollment VALUES (1306, '5th', 'B+', 23101128010, 101503);
+INSERT INTO Enrollment VALUES (1307, '5th', 'A', 23101128010, 101507);
+INSERT INTO Enrollment VALUES (1308, '5th', 'B', 23101128010, 101505);
+INSERT INTO Enrollment VALUES (1309, '5th', 'A-', 23101128010, 101502);
+INSERT INTO Enrollment VALUES (1310, '5th', 'B+', 23101128010, 101504);
+
+-- Enrollment data for Akash Kumar (3D Animation and Graphics - 118)
+
+INSERT INTO Enrollment VALUES (1311, '5th', 'A', 23118128004, 118501);
+INSERT INTO Enrollment VALUES (1312, '5th', 'B+', 23118128004, 118502);
+INSERT INTO Enrollment VALUES (1313, '5th', 'A-', 23118128004, 118503);
+INSERT INTO Enrollment VALUES (1314, '5th', 'B', 23118128004, 100512);
+
+
+-- Enrollment data for Sonam Priya (Electrical and Electronics Engineering - 110)
+
+INSERT INTO Enrollment VALUES (1315, '5th', 'A-', 23110128007, 100506);
+INSERT INTO Enrollment VALUES (1316, '5th', 'B+', 23110128007, 100507);
+INSERT INTO Enrollment VALUES (1317, '5th', 'A', 23110128007, 100502);
+INSERT INTO Enrollment VALUES (1318, '5th', 'B', 23110128007, 110501);
+
+
 
 
 SELECT * FROM Department;
@@ -260,3 +293,4 @@ SELECT * FROM Enrollment;
 SELECT * FROM Faculty;
 SELECT * FROM Student;
 SELECT * FROM Course;
+
